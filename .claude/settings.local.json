@@ -1,0 +1,9 @@
+{
+  "enabledMcpjsonServers": [
+    "context7",
+    "shadcn",
+    "next-devtools",
+    "better-auth"
+  ],
+  "enableAllProjectMcpServers": true
+}
