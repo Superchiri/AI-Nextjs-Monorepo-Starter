@@ -1,5 +1,5 @@
 {
-  "name": "@next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/env",
+  "name": "@your-repo-name/env",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -14,8 +14,8 @@
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/config": "workspace:*",
     "@types/node": "^22.13.14",
+    "@your-repo-name/config": "workspace:*",
     "typescript": "catalog:"
   }
 }

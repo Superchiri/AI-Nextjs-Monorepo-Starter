@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  description: "next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp",
-  title: "next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp",
+  description: "your-repo-name",
+  title: "your-repo-name",
 };
 
 export default function RootLayout({

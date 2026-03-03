@@ -1,4 +1,4 @@
-import { auth } from "@next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/auth";
+import { auth } from "@your-repo-name/auth";
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 

@@ -1,5 +1,5 @@
 {
-  "extends": "@next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/config/tsconfig.base.json",
+  "extends": "@your-repo-name/config/tsconfig.base.json",
   "compilerOptions": {
     "strictNullChecks": true
   }

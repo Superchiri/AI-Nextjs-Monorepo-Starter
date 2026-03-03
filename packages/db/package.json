@@ -1,5 +1,5 @@
 {
-  "name": "@next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/db",
+  "name": "@your-repo-name/db",
   "type": "module",
   "exports": {
     ".": {
@@ -20,16 +20,16 @@
     "db:down": "docker compose down"
   },
   "dependencies": {
-    "@next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/env": "workspace:*",
     "@prisma/adapter-pg": "^7.2.0",
     "@prisma/client": "catalog:",
+    "@your-repo-name/env": "workspace:*",
     "dotenv": "catalog:",
     "pg": "^8.17.1",
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/config": "workspace:*",
     "@types/pg": "^8.16.0",
+    "@your-repo-name/config": "workspace:*",
     "prisma": "^7.2.0",
     "typescript": "catalog:"
   }

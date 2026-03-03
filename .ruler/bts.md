@@ -1,6 +1,6 @@
 # Better-T-Stack Project Rules
 
-This is a next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp project created with Better-T-Stack CLI.
+This is a your-repo-name project created with Better-T-Stack CLI.
 
 ## Project Structure
 

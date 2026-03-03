@@ -151,6 +151,9 @@ git clone https://github.com/IvanTsxx/AI-Nextjs-Monorepo-Starter.git my-app
 cd my-app
 ```
 
+> [!IMPORTANT]
+> Once you have cloned the repository, remember to replace all occurrences of `your-repo-name` (or the original project name) with your actual repository name in the root `package.json` and other configuration files.
+
 ### 2. Install dependencies
 
 ```bash
@@ -224,18 +227,18 @@ All environment variables are validated at runtime using [t3-env](https://github
 
 When customizing this template for your own project, focus on these files:
 
-| File / Path                             | What to change                                |
-| --------------------------------------- | --------------------------------------------- |
-| `package.json`                          | Project name, description, repository URL     |
-| `apps/web/app/layout.tsx`               | App name, metadata (title, description)       |
-| `packages/env/src/server.ts`            | Add / remove environment variables            |
-| `packages/db/prisma/schema.prisma`      | Add your own data models                      |
-| `packages/db/docker-compose.yml`        | Database name, port, credentials              |
-| `packages/auth/src/`                    | Auth plugins, OAuth providers, session config |
-| `.mcp.json`                             | Add or remove MCP servers for your AI tools   |
-| `.agents/skills/`                       | Add custom skills for your domain             |
-| `GEMINI.md` / `AGENTS.md` / `CLAUDE.md` | Project-specific AI coding rules              |
-| `turbo.json`                            | Add new pipeline tasks if you add packages    |
+| File / Path                             | What to change                                                               |
+| --------------------------------------- | ---------------------------------------------------------------------------- |
+| `package.json`                          | **Project name**, description, **repository URL** (replace `your-repo-name`) |
+| `apps/web/app/layout.tsx`               | App name, metadata (title, description)                                      |
+| `packages/env/src/server.ts`            | Add / remove environment variables                                           |
+| `packages/db/prisma/schema.prisma`      | Add your own data models                                                     |
+| `packages/db/docker-compose.yml`        | Database name, port, credentials                                             |
+| `packages/auth/src/`                    | Auth plugins, OAuth providers, session config                                |
+| `.mcp.json`                             | Add or remove MCP servers for your AI tools                                  |
+| `.agents/skills/`                       | Add custom skills for your domain                                            |
+| `GEMINI.md` / `AGENTS.md` / `CLAUDE.md` | Project-specific AI coding rules                                             |
+| `turbo.json`                            | Add new pipeline tasks if you add packages                                   |
 
 ---
 

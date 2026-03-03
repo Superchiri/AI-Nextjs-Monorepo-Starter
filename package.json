@@ -1,34 +1,7 @@
 {
-  "name": "next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp",
+  "name": "your-repo-name",
   "version": "1.0.0",
   "private": true,
-  "description": "A modern, AI-first Next.js monorepo template with PostgreSQL, Prisma, Better-Auth, Ultracite, Turborepo, and native AI agent support (MCP & Skills).",
-  "keywords": [
-    "ai-agents",
-    "app-router",
-    "better-auth",
-    "bun",
-    "mcp",
-    "monorepo",
-    "nextjs",
-    "postgresql",
-    "prisma",
-    "shadcn",
-    "template",
-    "turborepo",
-    "typescript",
-    "ultracite"
-  ],
-  "homepage": "https://github.com/IvanTsxx/AI-Nextjs-Monorepo-Starter#readme",
-  "bugs": {
-    "url": "https://github.com/IvanTsxx/AI-Nextjs-Monorepo-Starter/issues"
-  },
-  "license": "MIT",
-  "author": "IvanTsxx",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/IvanTsxx/AI-Nextjs-Monorepo-Starter.git"
-  },
   "workspaces": {
     "packages": [
       "apps/*",
@@ -49,26 +22,26 @@
     "check-types": "turbo check-types",
     "dev:native": "turbo -F native dev",
     "dev:web": "turbo -F web dev",
-    "db:push": "turbo -F @next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/db db:push",
-    "db:studio": "turbo -F @next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/db db:studio",
-    "db:generate": "turbo -F @next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/db db:generate",
-    "db:migrate": "turbo -F @next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/db db:migrate",
-    "db:start": "turbo -F @next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/db db:start",
-    "db:watch": "turbo -F @next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/db db:watch",
-    "db:stop": "turbo -F @next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/db db:stop",
-    "db:down": "turbo -F @next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/db db:down",
+    "db:push": "turbo -F @your-repo-name/db db:push",
+    "db:studio": "turbo -F @your-repo-name/db db:studio",
+    "db:generate": "turbo -F @your-repo-name/db db:generate",
+    "db:migrate": "turbo -F @your-repo-name/db db:migrate",
+    "db:start": "turbo -F @your-repo-name/db db:start",
+    "db:watch": "turbo -F @your-repo-name/db db:watch",
+    "db:stop": "turbo -F @your-repo-name/db db:stop",
+    "db:down": "turbo -F @your-repo-name/db db:down",
     "check": "ultracite check",
     "fix": "ultracite fix",
     "ruler:apply": "bunx @intellectronica/ruler@latest apply --local-only"
   },
   "dependencies": {
-    "@next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/env": "workspace:*",
+    "@your-repo-name/env": "workspace:*",
     "dotenv": "catalog:",
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/config": "workspace:*",
     "@types/node": "^22.13.14",
+    "@your-repo-name/config": "workspace:*",
     "oxfmt": "latest",
     "oxlint": "latest",
     "turbo": "^2.6.3",

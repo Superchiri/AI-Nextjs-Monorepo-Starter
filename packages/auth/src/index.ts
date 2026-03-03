@@ -1,5 +1,5 @@
-import prisma from "@next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/db";
-import { env } from "@next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/env/server";
+import prisma from "@your-repo-name/db";
+import { env } from "@your-repo-name/env/server";
 import { betterAuth } from "better-auth";
 import { prismaAdapter } from "better-auth/adapters/prisma";
 import { nextCookies } from "better-auth/next-js";

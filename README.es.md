@@ -151,6 +151,9 @@ git clone https://github.com/IvanTsxx/AI-Nextjs-Monorepo-Starter.git mi-app
 cd mi-app
 ```
 
+> [!IMPORTANT]
+> Una vez que hayas clonado el repositorio, recuerda reemplazar todas las ocurrencias de `your-repo-name` (o el nombre original del proyecto) con el nombre real de tu repositorio en el archivo `package.json` raíz y otros archivos de configuración.
+
 ### 2. Instalar dependencias
 
 ```bash
@@ -224,18 +227,18 @@ Todas las variables de entorno son validadas en tiempo de ejecución usando [t3-
 
 Al personalizar esta plantilla para tu propio proyecto, enfócate en estos archivos:
 
-| Archivo / Ruta                          | Qué cambiar                                                 |
-| --------------------------------------- | ----------------------------------------------------------- |
-| `package.json`                          | Nombre del proyecto, descripción, URL del repositorio       |
-| `apps/web/app/layout.tsx`               | Nombre de la app, metadata (título, descripción)            |
-| `packages/env/src/server.ts`            | Agregar o quitar variables de entorno                       |
-| `packages/db/prisma/schema.prisma`      | Agregar tus propios modelos de datos                        |
-| `packages/db/docker-compose.yml`        | Nombre de la base de datos, puerto, credenciales            |
-| `packages/auth/src/`                    | Plugins de auth, proveedores OAuth, configuración de sesión |
-| `.mcp.json`                             | Agregar o quitar servidores MCP para tus herramientas de IA |
-| `.agents/skills/`                       | Agregar skills personalizadas para tu dominio               |
-| `GEMINI.md` / `AGENTS.md` / `CLAUDE.md` | Reglas de codificación con IA específicas del proyecto      |
-| `turbo.json`                            | Agregar nuevas tareas al pipeline si agregas paquetes       |
+| Archivo / Ruta                          | Qué cambiar                                                                                 |
+| --------------------------------------- | ------------------------------------------------------------------------------------------- |
+| `package.json`                          | **Nombre del proyecto**, descripción, **URL del repositorio** (reemplazar `your-repo-name`) |
+| `apps/web/app/layout.tsx`               | Nombre de la app, metadata (título, descripción)                                            |
+| `packages/env/src/server.ts`            | Agregar o quitar variables de entorno                                                       |
+| `packages/db/prisma/schema.prisma`      | Agregar tus propios modelos de datos                                                        |
+| `packages/db/docker-compose.yml`        | Nombre de la base de datos, puerto, credenciales                                            |
+| `packages/auth/src/`                    | Plugins de auth, proveedores OAuth, configuración de sesión                                 |
+| `.mcp.json`                             | Agregar o quitar servidores MCP para tus herramientas de IA                                 |
+| `.agents/skills/`                       | Agregar skills personalizadas para tu dominio                                               |
+| `GEMINI.md` / `AGENTS.md` / `CLAUDE.md` | Reglas de codificación con IA específicas del proyecto                                      |
+| `turbo.json`                            | Agregar nuevas tareas al pipeline si agregas paquetes                                       |
 
 ---
 
