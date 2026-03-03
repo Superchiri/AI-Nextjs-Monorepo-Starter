@@ -1,0 +1,24 @@
+{
+  "name": "@next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/auth",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {},
+  "dependencies": {
+    "@next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/db": "workspace:*",
+    "@next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/env": "workspace:*",
+    "better-auth": "catalog:",
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/config": "workspace:*",
+    "typescript": "catalog:"
+  }
+}

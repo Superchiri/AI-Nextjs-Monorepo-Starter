@@ -1,0 +1,51 @@
+{
+  "name": "next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ],
+    "catalog": {
+      "dotenv": "^17.2.2",
+      "zod": "^4.1.13",
+      "typescript": "^5",
+      "@prisma/client": "^7.2.0",
+      "better-auth": "^1.4.18"
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "check-types": "turbo check-types",
+    "dev:native": "turbo -F native dev",
+    "dev:web": "turbo -F web dev",
+    "db:push": "turbo -F @next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/db db:push",
+    "db:studio": "turbo -F @next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/db db:studio",
+    "db:generate": "turbo -F @next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/db db:generate",
+    "db:migrate": "turbo -F @next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/db db:migrate",
+    "db:start": "turbo -F @next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/db db:start",
+    "db:watch": "turbo -F @next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/db db:watch",
+    "db:stop": "turbo -F @next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/db db:stop",
+    "db:down": "turbo -F @next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/db db:down",
+    "check": "ultracite check",
+    "fix": "ultracite fix",
+    "ruler:apply": "bunx @intellectronica/ruler@latest apply --local-only"
+  },
+  "dependencies": {
+    "@next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/env": "workspace:*",
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@next-prisma-postgresql-better-auth-ultracite-skills-ruler-mcp/config": "workspace:*",
+    "@types/node": "^22.13.14",
+    "oxfmt": "latest",
+    "oxlint": "latest",
+    "turbo": "^2.6.3",
+    "typescript": "catalog:",
+    "ultracite": "7.2.4"
+  },
+  "packageManager": "bun@1.3.10"
+}
