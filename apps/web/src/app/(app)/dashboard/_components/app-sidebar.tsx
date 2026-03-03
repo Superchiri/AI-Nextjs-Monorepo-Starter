@@ -13,8 +13,8 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   SidebarHeader,
-} from "@/components/ui/sidebar";
-import { authClient } from "@/lib/auth-client";
+} from "@/shared/components/ui/sidebar";
+import { authClient } from "@/shared/lib/auth-client";
 
 const NAV_ITEMS = [
   { href: "/dashboard", icon: Home, label: "Dashboard" },

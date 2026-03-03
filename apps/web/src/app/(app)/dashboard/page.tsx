@@ -1,5 +1,10 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { verifySession } from "@/lib/dal";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "@/shared/components/ui/card";
+import { verifySession } from "@/shared/lib/dal";
 
 export default async function DashboardPage() {
   const session = await verifySession();
