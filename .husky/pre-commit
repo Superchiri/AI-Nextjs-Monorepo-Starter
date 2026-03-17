@@ -1,5 +1,0 @@
-#npm test you can remove this if you don't want to run tests on commit
-
-# ultracite
-#!/bin/sh
-bun x lint-staged
